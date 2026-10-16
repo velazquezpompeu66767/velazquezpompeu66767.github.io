@@ -15,7 +15,37 @@ significa que va més enlla del text, imatges, videos, enllaços, gifs, stickers
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- La línia anterior fa que sigui posible crear un menú desplegable amb bootstrap i que les línies  --> 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <!-- Les pàgines web que començen amb "CDN" Content Delivey network són molt important en informàtica i en codi perquè fan possible
+  incloure en el nostre codi una biblioteca. En aquest cas la biblioteca es el tipus "CSS" (Cascade style Sheet" que significa fulls d'estils en Cascada.
+  Ho sabem perquè acaba en .CSS. CSS es un llenguatge de programació diferent a "html". Amb CSS podem canviar per exemples: tipus de lletra, marges, la mida de les lletres, colors, etc.
+  En canvi, amb "HTML" programem només l'esquelet o l'estructura bàsica que uneix tot. Per últim existeix el Javascrpt que permet el commportament interactiu i els  canvis. La suma de
+  "HTML" + "Javascript" + "CSS" Per exemple si nosalgres fossim una pàgina web seriem l'esquelet seria = HTML, després CSS seria lam nostra roba inclós la nostra carn i el Javascript ens
+  permetria respirar, moure, estudiar, etc. En una casa seria HTML= les bigues i les parets, l'estil seria les pintures de les parets, i el Javascript seria l'alarma, el timbre, els llums
+  o el rec autòmatic.--> 
   <style>
+     /* L'etiqueta de dalt significa que canviem de llenguatge i ara escrivim en CSS. Ara els comentaris es posen amb un "asterisc" i una barra iclinada, a diferència 
+    dels comentaris del HTML que és posava menor que  <!-- -->. Si porta asterisc barra es un comentarimultilineal i siporta només dos barres a l'inici
+    es un comentari d'una linia per javascript*/
+    /* L'estructura del CSS no té menor que ni major que. Sempre té l'estructura
+    etiqueta { 
+    propietat1: valor1;
+    propietat2: valor2
+    }
+    
+    Exemples:
+    En el codi HTML jo he escrit un titol<. <hi> Estudiem el plàtan </h1>
+    H1 és una etiqueta de HTML que permet fer titols fer més grans, h2 faria titols més petits fins h6 molt petit
+    En el codi CSS el que fem es modificar el HTML, si vull modificar el titol h1 he d'escriure:
+    h1¨{
+    color:pink;
+    font-size:33px;
+    font-family:sans-serif;
+    }
+    Amb això hem aconseguit canviar l'estil del titol, concretament el color ara es rosa, abans era negre,
+    la mida és 33 pixels i el tipus de lletra es sans-serif*/
+    /*Només hi han tres tipus de famílies de lletra: serif, san-serif i monospace*/
+    
+    
     /* 1. Submenús en mode fosc */
     body[data-bs-theme="dark"] .dropdown-menu {
       background-color: #2c2c2c !important;
